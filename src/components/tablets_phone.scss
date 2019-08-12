@@ -1,0 +1,102 @@
+@import "../scss/variable";
+
+@media screen and (max-width: 1035px) {
+
+  .ro_service_wrapper {
+    width: 75%;
+  }
+  .ro_nav_link {
+    font-size: 16px;
+  }
+  .ro_header_nav_logo {
+    flex-direction: column;
+  }
+  .ro_logo {
+    margin-bottom: 20px;
+  }
+  .ro_contact_submit {
+    width: 100px;
+    height: 40px;
+  }
+  .ro_slider_button {
+    width: 185px;
+    height: 40px;
+  }
+  .ro_service_table {
+    margin-bottom: 55px;
+    width: 335px;
+  }
+  .ro_content_service {
+    font-size: 16px;
+  }
+  .ro_slider_tittle {
+    font-size: 34px;
+  }
+  .ro_table_work_img {
+    width: 335px;
+    height: 260px;
+  }
+  .ro_work_img {
+
+    height: 250px;
+  }
+  .ro_tittle_work {
+    width: 112%;
+  }
+  .ro_work_img_wrapper {
+    width: 75%;
+  }
+  .ro_table_footer_wrapper {
+    width: 75%;
+  }
+  .ro_footer_inf {
+    width: 70%;
+  }
+  .ro_title_blog {
+    font-size: 24px;
+  }
+  .ro_post_blog {
+    font-size: 18px;
+  }
+  .ro_admin_email_blog {
+    font-size: 14px;
+  }
+  .ro_admin_blog {
+    font-size: 14px;
+  }
+  .ro_table_blog {
+    width: 300px;
+  }
+  .ro_content_blog {
+    font-size: 16px;
+  }
+  .ro_more_blog {
+    font-size: 16px;
+  }
+  .ro_quick_link {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .ro_navbar_wrapper {
+    display: none;
+    transition: 0.7s;
+  }
+  .burger_menu {
+    display: block;
+  }
+  .ro_navbar_wrapper.show {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.7s;
+    width: 100%;
+    background: $color_red;
+  }
+  .ro_slider_content{
+    text-align: center;
+  }
+
+}

@@ -1,0 +1,20 @@
+@import "../scss/variable";
+
+@media all and (-ms-high-contrast: none) {
+  *::-ms-backdrop,
+  .ro_slider_button {
+    width: 180px;
+  }
+  .ro_tittle_service {
+    font-size: 22px;
+  }
+  .ro_content_service {
+    width: 100%;
+  }
+  .ro_conteiner_text_work {
+    left: 6px;
+  }
+  .ro_contact_message {
+    overflow: hidden;
+  }
+}
