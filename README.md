@@ -1,6 +1,6 @@
 # FireLink_Playtini_task 
 ## Result
-[The Modernist](https://oksanarutska.github.io/FireLink_Playtini_task/dist/index.html)
+[The Modernist](https://oksanarutska.github.io/The_Modernist_task/dist/index.html)
 ## Technology
 - pug(jade)
 - scss
